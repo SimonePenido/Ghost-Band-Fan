@@ -143,11 +143,11 @@ main {
   font: 1em sans-serif;
 
   & .btn {
-    background-color: rgba(255, 255, 255, 0.699);
-    color: rgba(0,0,0,0.7);
+    background-color: rgba(0,0,0,0.7);
+    color: rgba(255, 255, 255, 0.699);
     border: 3px solid rgba(0,0,0,0.6);
     margin: 0 0.45rem;
-    padding: 1rem;
+    padding: 1.5rem;
     border-radius: 40%;
     cursor: pointer;
 
@@ -215,5 +215,9 @@ main {
     &:nth-child(12) { left: calc(50% + 280px); }
     &:nth-child(13) { left: calc(50% + 280px); }
     &:nth-child(14) { left: calc(50% + 420px); opacity: 0; }
+  }
+
+  .btn {
+    padding: 2rem;
   }
 }
