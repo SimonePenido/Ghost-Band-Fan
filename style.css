@@ -16,7 +16,7 @@ main {
   width: 100%;
   height: 100%;
   box-shadow: 0 3px 10px rgba(0,0,0,0.3);
-  letter-spacing: 0.5px;
+  letter-spacing: 0.9px;
 }
 
 .item {
@@ -33,7 +33,7 @@ main {
   box-shadow: 0 20px 30px rgba(255,255,255,0.3) inset;
   transition: transform 0.1s, left 0.75s, top 0.75s, width 0.75s, height 0.75s;
 
-  &:nth-child(1), &:nth-child(2) {
+    &:nth-child(1), &:nth-child(2) {
     left: 0;
     top: 0;
     width: 100%;
@@ -44,7 +44,7 @@ main {
     opacity: 1;
   }
 
-  &:nth-child(3) { left: 50%; opacity: 0.5;}
+  &:nth-child(3) { left: 50%; opacity: 0.4;}
   &:nth-child(4) { left: calc(50% + 220px); opacity: 0.6 }
   &:nth-child(5) { left: calc(50% + 440px); opacity: 0.7 }
   &:nth-child(6) { left: calc(50% + 440px); }
@@ -66,10 +66,11 @@ main {
   transform: translateY(-50%);
   font: 500 0.85rem helvetica,sans-serif;
   color: white;
-  text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.925);
+  text-shadow: #000 -1px -1px 0, #000 1px -1px 0, #000 -1px 1px 0, #000 1px 1px 0;
   opacity: 0;
   display: none;
   text-align: justify;
+  letter-spacing: 1px;
 
   & .title {
     font-family: 'arial-black', sans-serif;
@@ -80,7 +81,7 @@ main {
     line-height: 1.7;
     margin: 1rem 0 1.5rem;
     font-size: 1rem;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.9px;
   }
 
   & button {
@@ -92,6 +93,7 @@ main {
     padding: 0.75rem;
     cursor: pointer;
     margin-top: 1em;
+    letter-spacing: 0.9px;
   }
 
   & button:hover {
