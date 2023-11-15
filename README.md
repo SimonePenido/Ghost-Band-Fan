@@ -13,9 +13,9 @@ A página web estática apresenta elementos visuais e estilísticos inspirados n
 O projeto contém os seguintes arquivos e pastas:
 
 - `index.html`: Página principal HTML.
-- `styles/`: Pasta contendo arquivos CSS para estilização.
-- `scripts/`: Pasta contendo arquivos JavaScript para funcionalidades interativas.
-- `images/`: Pasta com imagens e recursos visuais.
+- `styles`: Arquivo CSS para estilização.
+- `script`: Arquivo JavaScript para funcionalidades interativas.
+- `img/`: Pasta com imagens e recursos visuais.
 
 ## Tecnologias Utilizadas
 
