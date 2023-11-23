@@ -82,6 +82,8 @@ main {
     margin: 1rem 0 1.5rem;
     font-size: 0.9rem;
     background-color:rgba(0, 0, 0, 0.4);
+    border-radius: 0.45rem;
+    padding: 0.3em 0.5em;
   }
 
 
@@ -161,9 +163,9 @@ main {
 
 @media (width > 650px) and (width < 900px) {
   .content {
-    & .title        { font-size: 1.1rem; }
-    & .description  { font-size: 0.8rem; }
-    & button        { font-size: 0.8rem; }
+    & .title        { font-size: 1rem; }
+    & .description  { font-size: 0.7rem; }
+    & button        { font-size: 0.7rem; }
   }
   .item {
     width: 160px;
@@ -194,11 +196,11 @@ main {
 
 @media (width < 650px) {
   .content {
-    & .title        { font-size: 0.9rem; 
+    & .title        { font-size: 0.7rem; 
       text-align:left;}
     & .description  { font-size: 0.75rem; 
       text-align:left;}
-    & button        { font-size: 0.9rem; }
+    & button        { font-size: 0.8rem; }
   }
   .item {
     width: 130px;
@@ -219,6 +221,6 @@ main {
   }
 
   .btn {
-    padding: 2rem;
+    padding: 1.5rem;
   }
 }
